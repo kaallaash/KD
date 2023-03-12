@@ -7,6 +7,7 @@ public class DatabaseContext : DbContext
 {
     public DbSet<UniversityEntity> Universities { get; set; } = null!;
     public DbSet<DrawingEntity> Drawings { get; set; } = null!;
+    public DbSet<VariantEntity> Variants { get; set; } = null!;
 
     public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
     {
