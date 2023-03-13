@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KD.API", "KD.API\KD.API.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KD.DAL", "KD.DAL\KD.DAL.csproj", "{D88027AE-108F-4FF2-94D9-58C35C00B701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KD.Core", "Core\KD.Core\KD.Core.csproj", "{5E26CAAF-0A94-4F0A-A73E-76916B8AA65C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KD.Core", "Core\KD.Core\KD.Core.csproj", "{5E26CAAF-0A94-4F0A-A73E-76916B8AA65C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A197CCD3-6F3E-4065-95ED-0DAA3EA7F569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B44E5FBE-50F6-45D5-A4A6-C9860100B603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KD.DAL.Tests", "Tests\KD.DAL.Tests\KD.DAL.Tests.csproj", "{8C8AC07B-98EC-44B9-AC11-583889879276}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +33,17 @@ Global
 		{5E26CAAF-0A94-4F0A-A73E-76916B8AA65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E26CAAF-0A94-4F0A-A73E-76916B8AA65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E26CAAF-0A94-4F0A-A73E-76916B8AA65C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8AC07B-98EC-44B9-AC11-583889879276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8AC07B-98EC-44B9-AC11-583889879276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8AC07B-98EC-44B9-AC11-583889879276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8AC07B-98EC-44B9-AC11-583889879276}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5E26CAAF-0A94-4F0A-A73E-76916B8AA65C} = {A197CCD3-6F3E-4065-95ED-0DAA3EA7F569}
+		{8C8AC07B-98EC-44B9-AC11-583889879276} = {B44E5FBE-50F6-45D5-A4A6-C9860100B603}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A58D44F-513C-4809-82E3-9EA9430F5103}
